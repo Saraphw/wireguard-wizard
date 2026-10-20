@@ -74,7 +74,8 @@ def add_host(graph, **kwargs):
         "Table" : kwargs.get("Table", None),
         "MTU" : kwargs.get("MTU", None),
         "PreUp" : kwargs.get("PreUp", None),
-        "PostDown" : kwargs.get("PostDown", None)
+        "PostDown" : kwargs.get("PostDown", None),
+        "DNS" : kwargs.get("DNS", None)
     }
     return graph
 
@@ -115,7 +116,7 @@ def gen_config_files(graph):
                 if not peer:
                     print("Error finding peer " + str(connection) + " in host " + hostname)
                     continue
-                ftext += _write_peer(connection['name'], peer, connection.get("keepalive", "25")) + "\n"
+                ftext += write_peer(connection['name'], peer, connection.get("keepalive", "25")) + "\n"
         with open(hostname + ".conf", "w+") as f:
             f.write(ftext)
     return
