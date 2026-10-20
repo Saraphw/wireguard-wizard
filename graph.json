@@ -1,0 +1,33 @@
+{
+    "server": {
+        "ip": "192.168.3.0/32", 
+        "endpoint": "25.25.25.25", 
+        "listen_port": "58888", 
+        "private_key": "eJBbcVIebEw5AkwP61qzYjmdDNTo5NJXkTnSEGO/wXY=", 
+        "public_key": "mzVfsThJTO5L/CRfOqhICA5DCuJoK2aCRGi2Ow8ZtEQ=", 
+        "peers": [{"name": "*"}], "Table": null, "MTU": null, "PreUp": null, "PostDown": null
+        }, 
+    "client_1": {
+        "ip": "192.168.3.1/32", 
+        "endpoint": null, 
+        "listen_port": null, 
+        "private_key": "SMefCKWE4Al7luAfO7aNlbILcTSxleb3egvtrt5PtXA=", 
+        "public_key": "orNe5A5yDioQcnrMWsB3nTt/E2JgHPx/joniERsImCI=", 
+        "peers": [{"name": "*"}], "Table": null, "MTU": null, "PreUp": null, "PostDown": null
+        }, 
+    "client_2": {
+        "ip": "192.168.3.2/32", 
+        "endpoint": null, 
+        "listen_port": null, 
+        "private_key": "YALlAR2nLnOwRBprRyDrXnOBIBk7favqIhc27Poj+H8=", 
+        "public_key": "OCmcB20kOg8Fhd23vi1Swile7qD+Br4JoUZ0xStMnjM=", 
+        "peers": [{"name": "*"}], "Table": null, "MTU": null, "PreUp": null, "PostDown": null
+        }, 
+    "client_3": {
+        "ip": "192.168.3.3/32", 
+        "endpoint": null, 
+        "listen_port": null, 
+        "private_key": "WI8k/mNYv3jhGcOIA+u6kLTbxud2rD5kQTasgu2dyWs=", 
+        "public_key": "wtDio18WmTCVWRi87PBPlGA9yMG4ZpD9RZJytx4RNlA=", 
+        "peers": [{"name": "*"}], "Table": null, "MTU": null, "PreUp": null, "PostDown": null}
+}
